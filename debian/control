@@ -1,0 +1,12 @@
+Source: ros-jazzy-rslidar-sdk
+Section: misc
+Priority: optional
+Maintainer: robosense <felix.huang@robosense.cn>
+Build-Depends: debhelper (>= 9.0.0), libpcap0.8-dev, libyaml-cpp-dev, ros-jazzy-ament-cmake, ros-jazzy-rclcpp, ros-jazzy-rslidar-msg, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rslidar-sdk
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcap0.8-dev, libyaml-cpp-dev, ros-jazzy-rclcpp, ros-jazzy-rslidar-msg, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Description: The rslidar_sdk package
